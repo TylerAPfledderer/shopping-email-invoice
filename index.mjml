@@ -3,5 +3,30 @@
     <mj-title></mj-title>
     <mj-attributes></mj-attributes>
   </mj-head>
-  <mj-body> [Content Here] </mj-body>
+  <mj-body background-color="#F1F1F1">
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section></mj-section>
+    <mj-raw>
+      <!-- Order / Account Info -->
+    </mj-raw>
+    <mj-section></mj-section>
+    <mj-raw>
+      <!-- Purchased Product Table -->
+    </mj-raw>
+    <mj-section></mj-section>
+    <mj-raw>
+      <!-- Print Invoice CTA -->
+    </mj-raw>
+    <mj-section></mj-section>
+    <mj-raw>
+      <!-- More Products -->
+    </mj-raw>
+    <mj-section></mj-section>
+    <mj-raw>
+      <!-- Visit Site CTA -->
+    </mj-raw>
+    <mj-section></mj-section>
+  </mj-body>
 </mjml>
