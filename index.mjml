@@ -15,7 +15,25 @@
     <mj-raw>
       <!-- Header -->
     </mj-raw>
-    <mj-section></mj-section>
+    <mj-section css-class="mobile-section-padding" background-color="#E3EDEF" border-bottom="2px solid #71A3AF">
+      <mj-group>
+        <mj-column vertical-align="middle" padding-right="16px">
+          <mj-image
+            css-class="header-col-content"
+            src="/images/wf_us_logo_no_domain_140x48.png"
+            alt=""
+            width="111px"
+            padding="0"
+            align="left"
+          />
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-text css-class="header-col-content" font-weight="bold" align="right" line-height="16px">
+            Get support <a class="text-link" href="#tbd">here</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
     <mj-raw>
       <!-- Order / Account Info -->
     </mj-raw>
