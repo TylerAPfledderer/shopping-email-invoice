@@ -1,7 +1,15 @@
 <mjml>
   <mj-head>
     <mj-title>Wayfair Order - Invoice #0001</mj-title>
-    <mj-attributes></mj-attributes>
+    <mj-attributes>
+      <mj-section padding="16px 40px" />
+      <mj-text color="#818181" padding="0" />
+    </mj-attributes>
+    <mj-style inline="inline"> .text-link { color: #864887; text-decoration: none; } </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 480px) { .mobile-section-padding > table > tbody > tr > td { padding: 24px
+      !important; } }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#F1F1F1">
     <mj-raw>
