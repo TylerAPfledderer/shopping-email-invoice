@@ -39,7 +39,26 @@
     <mj-raw>
       <!-- Order / Account Info -->
     </mj-raw>
-    <mj-section></mj-section>
+    <mj-section css-class="mobile-section-padding" padding-top="34px" padding-bottom="40px" background-color="#ffffff">
+      <mj-group>
+        <mj-column>
+          <mj-text align="left">
+            Billed to:
+            <address style="font-weight: bold; font-style: normal">
+              Dorothy J. Osgood<br />
+              1608 Desert Broom&nbsp;Court<br />
+              Closter, NJ 07624
+            </address>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right">
+            Invoice #0001<br />
+            03.31.2016
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
     <mj-raw>
       <!-- Purchased Product Table -->
     </mj-raw>
