@@ -3,7 +3,7 @@
     <mj-title>Wayfair Order - Invoice #0001</mj-title>
     <mj-attributes>
       <mj-font name="Mulish" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" />
-      <mj-section padding="16px 40px" />
+      <mj-section padding="16px 40px" background-color="#ffffff" />
       <mj-text color="#818181" padding="0" line-height="16px" />
       <mj-all font-family="Mulish, Arial, Helvetica Neue, Helvetica, sans-serif" />
     </mj-attributes>
@@ -39,7 +39,7 @@
     <mj-raw>
       <!-- Order / Account Info -->
     </mj-raw>
-    <mj-section css-class="mobile-section-padding" padding-top="34px" padding-bottom="40px" background-color="#ffffff">
+    <mj-section css-class="mobile-section-padding" padding-top="34px" padding-bottom="40px">
       <mj-group>
         <mj-column>
           <mj-text align="left">
