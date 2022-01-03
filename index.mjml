@@ -13,7 +13,7 @@
       !important; } }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#F1F1F1">
+  <mj-body width="800px" background-color="#F1F1F1">
     <mj-raw>
       <!-- Header -->
     </mj-raw>
