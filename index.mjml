@@ -22,8 +22,9 @@
       padding-left: 16px!important; padding-right: 16px!important; } .PurchasedProduct__total--mobile { padding-right:
       16px!important; } .InvoiceSection__col--left > table > tbody > tr > td { padding-left: 0!important; }
       .InvoiceSection__col--right > table > tbody > tr > td { padding-right: 0!important; }
-      .InvoiceSection__divider--mobile { padding-left: 0!important; padding-right: 0!important; } } @media only screen
-      and (max-width: 700px) { .MoreProduct__MobileOverride { width: 100%!important; max-width:none;!important; } }
+      .InvoiceSection__divider--mobile { padding-left: 0!important; padding-right: 0!important; } .VisitCta__mobile td {
+      padding-left: 16px!important; padding-right: 16px!important; } } @media only screen and (max-width: 700px) {
+      .MoreProduct__MobileOverride { width: 100%!important; max-width:none;!important; } }
     </mj-style>
   </mj-head>
   <mj-body width="800px" background-color="#F1F1F1">
@@ -192,6 +193,20 @@
     <mj-raw>
       <!-- Visit Site CTA -->
     </mj-raw>
-    <mj-section></mj-section>
+    <mj-section padding="0 24px 40px">
+      <mj-column>
+        <mj-button
+          css-class="VisitCta__mobile"
+          background-color="#864887"
+          color="#ffffff"
+          inner-padding="20px 99px"
+          font-size="16px"
+          padding="0"
+          href="#tbd"
+        >
+          Visit Wayfair for&nbsp;other&nbsp;products
+        </mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
