@@ -28,9 +28,6 @@
     </mj-style>
   </mj-head>
   <mj-body width="800px" background-color="#F1F1F1">
-    <mj-raw>
-      <!-- Header -->
-    </mj-raw>
     <mj-section css-class="mobile-section-padding" background-color="#E3EDEF" border-bottom="2px solid #71A3AF">
       <mj-group>
         <mj-column vertical-align="middle" padding-right="16px">
@@ -50,9 +47,6 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-raw>
-      <!-- Order / Account Info -->
-    </mj-raw>
     <mj-section css-class="mobile-section-padding" padding-top="34px" padding-bottom="40px">
       <mj-group>
         <mj-column>
@@ -73,9 +67,6 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-raw>
-      <!-- Purchased Product Table -->
-    </mj-raw>
     <mj-section css-class="mobile-section-padding" padding-top="0">
       <mj-column css-class="PurchasedProduct__wrap" border="1px solid #E9E9E9" border-radius="5px">
         <mj-table css-class="PurchasedProduct__table" padding="0">
@@ -110,9 +101,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-raw>
-      <!-- Print Invoice CTA -->
-    </mj-raw>
     <mj-section css-class="mobile-section-padding">
       <mj-group width="100%">
         <mj-column
@@ -144,9 +132,6 @@
         <mj-divider border-width="1px" css-class="InvoiceSection__divider--mobile" padding-top="0" />
       </mj-column>
     </mj-section>
-    <mj-raw>
-      <!-- More Products -->
-    </mj-raw>
     <mj-wrapper css-class="mobile-section-padding">
       <mj-section padding="0 24px 36px 24px">
         <mj-column>
@@ -192,9 +177,6 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-raw>
-      <!-- Visit Site CTA -->
-    </mj-raw>
     <mj-section padding="0 24px 40px">
       <mj-column>
         <mj-button
