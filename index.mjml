@@ -138,8 +138,10 @@
           </mj-button>
         </mj-column>
       </mj-group>
-      <mj-column width="100%">
-        <mj-divider border-width="1px" css-class="InvoiceSection__divider--mobile" padding-top="16px" />
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-divider border-width="1px" css-class="InvoiceSection__divider--mobile" padding-top="0" />
       </mj-column>
     </mj-section>
     <mj-raw>
