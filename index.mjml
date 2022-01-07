@@ -33,7 +33,7 @@
         <mj-column vertical-align="middle" padding-right="16px">
           <mj-image
             css-class="header-col-content"
-            src="/images/wf_us_logo_no_domain_140x48.png"
+            src="https://user-images.githubusercontent.com/65234762/148608065-dfe4711d-27b3-4c2e-81d2-e512bc4ec4f4.png"
             alt=""
             width="111px"
             padding="0"
@@ -150,7 +150,7 @@
       <mj-section padding="0">
         <mj-column css-class="MoreProduct__MobileOverride" padding="0 10px 48px 0">
           <mj-image
-            src="/images/toren-product-image.png"
+            src="https://user-images.githubusercontent.com/65234762/148608164-9ad4945f-39b0-4d16-89e6-2dcbc237d872.png"
             alt="View Toren Denim 16-Piece Dinnerware Set"
             padding="0"
             width="214px"
@@ -162,14 +162,26 @@
           </mj-text>
         </mj-column>
         <mj-column css-class="MoreProduct__MobileOverride" padding="0 5px 48px 5px">
-          <mj-image src="/images/lavastone-product-image.png" alt="" padding="0" width="214px" href="#tbd" />
+          <mj-image
+            src="https://user-images.githubusercontent.com/65234762/148608132-4e986e3f-42c1-43c4-8f1e-7a04ca5e3191.png"
+            alt=""
+            padding="0"
+            width="214px"
+            href="#tbd"
+          />
           <mj-text align="center" padding="16px 20px 0">
             <strong>Lavastone 16 Piece Dinnerware Set</strong><br />
             by Sango
           </mj-text>
         </mj-column>
         <mj-column css-class="MoreProduct__MobileOverride" padding="0 0 48px 10px">
-          <mj-image src="/images/turo-product-image.png" alt="" padding="0" width="214px" href="#tbd" />
+          <mj-image
+            src="https://user-images.githubusercontent.com/65234762/148608089-72757575-5480-4ec5-bf0b-f54eba43d3a4.png"
+            alt=""
+            padding="0"
+            width="214px"
+            href="#tbd"
+          />
           <mj-text align="center" padding="16px 20px 0">
             <strong>Turo 12 Piece Dinnerware Set</strong><br />
             by Sango
