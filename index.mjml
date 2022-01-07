@@ -5,6 +5,7 @@
       <mj-font name="Mulish" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" />
       <mj-section padding="16px 40px" background-color="#ffffff" />
       <mj-text padding="0" line-height="16px" />
+      <mj-divider border-width="2px" border-color="#E9E9E9" />
       <mj-all color="#818181" font-family="Mulish, Arial, Helvetica Neue, Helvetica, sans-serif" />
     </mj-attributes>
     <mj-style inline="inline">
@@ -90,12 +91,7 @@
             <td class="PurchasedProduct__DetailCell--right">$28.64</td>
           </tr>
         </mj-table>
-        <mj-divider
-          css-class="PurchasedProduct__Divider--mobile"
-          border-width="2px"
-          border-color="#E9E9E9"
-          padding="12px 24px 0 24px"
-        />
+        <mj-divider css-class="PurchasedProduct__Divider--mobile" padding="12px 24px 0 24px" />
         <mj-text
           css-class="PurchasedProduct__total--mobile"
           align="right"
