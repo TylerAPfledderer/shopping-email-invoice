@@ -19,7 +19,9 @@
       !important; } .PurchasedProduct__DetailCell--left { padding-left: 16px!important; }
       .PurchasedProduct__DetailCell--right { padding-right: 16px!important; } .PurchasedProduct__Divider--mobile {
       padding-left: 16px!important; padding-right: 16px!important; } .PurchasedProduct__total--mobile { padding-right:
-      16px!important; }}
+      16px!important; } .InvoiceSection__col--left > table > tbody > tr > td { padding-left: 0!important; }
+      .InvoiceSection__col--right > table > tbody > tr > td { padding-right: 0!important; }
+      .InvoiceSection__divider--mobile { padding-left: 0!important; padding-right: 0!important; } }
     </mj-style>
   </mj-head>
   <mj-body width="800px" background-color="#F1F1F1">
@@ -108,7 +110,35 @@
     <mj-raw>
       <!-- Print Invoice CTA -->
     </mj-raw>
-    <mj-section></mj-section>
+    <mj-section css-class="mobile-section-padding">
+      <mj-group width="100%">
+        <mj-column
+          css-class="InvoiceSection__col--left"
+          vertical-align="middle"
+          padding-left="24px"
+          padding-right="16px"
+        >
+          <mj-text> Need and Invoice? </mj-text>
+        </mj-column>
+        <mj-column css-class="InvoiceSection__col--right" vertical-align="middle" padding-right="24px">
+          <mj-button
+            background-color="#E3EDEF"
+            border="1px solid #E9E9E9"
+            font-size="13px"
+            padding="0"
+            inner-padding="12px 24px"
+            width="106px"
+            align="right"
+            href="#tbd"
+          >
+            Generate
+          </mj-button>
+        </mj-column>
+      </mj-group>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" css-class="InvoiceSection__divider--mobile" padding-top="16px" />
+      </mj-column>
+    </mj-section>
     <mj-raw>
       <!-- More Products -->
     </mj-raw>
